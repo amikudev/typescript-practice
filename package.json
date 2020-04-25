@@ -1,0 +1,20 @@
+{
+  "name": "typescript-practice",
+  "version": "1.0.0",
+  "description": "going through typescript documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "interfaces": "ts-node src/interfaces/interfaces.ts",
+    "extending_interfaces": "ts-node src/interfaces/extending_interfaces.ts",
+    "run-ts-node": "ts-node"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-lint": "^4.5.1",
+    "ts-node": "^8.9.0",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.8.3"
+  }
+}
